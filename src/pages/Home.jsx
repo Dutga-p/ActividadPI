@@ -1,5 +1,5 @@
-import Login from "./login/login";
-import CreateUser from "./CreateUser";
+import Login from "./login/Login.jsx";
+import CreateUser from "./CreateUser.jsx";
 
 const Home = () => {
   return ( 
