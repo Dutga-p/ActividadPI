@@ -1,4 +1,4 @@
-import Login from "./login/Login.jsx";
+import Login from "./Login.jsx";
 import CreateUser from "./CreateUser.jsx";
 
 const Home = () => {
