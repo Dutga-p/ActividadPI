@@ -4,8 +4,7 @@ import { useNavigate } from "react-router-dom";
 import useAuthStore from "../stores/use-auth-store.js";
 
 const Login = () => {
-  const { user, loginGoogleWithPopUp, observeAuthState, loading } =
-    useAuthStore();
+  const { user, observeAuthState, loginGoogleWithPopUp, logout, loading } = useAuthStore();
 
   const navigate = useNavigate();
 
