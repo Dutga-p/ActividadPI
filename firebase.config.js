@@ -12,7 +12,7 @@ const firebaseConfig = {
   projectId: "fir-integrative-project",
   storageBucket: "fir-integrative-project.appspot.com",
   messagingSenderId: "759398296269",
-  appId: '1:759398296269:web:8561af6da5ea3aaa745784',
+  appId: '1:644363809031:web:674682b499e1b9a5efd5a2'
 };
 
 // Initialize Firebase
