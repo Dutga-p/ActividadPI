@@ -1,7 +1,7 @@
 import { useCallback, useEffect } from "react";
-import useAuthStore from "../../stores/use-auth-store";
-import UserDAO from "../../daos/UserDAO";
+import UserDAO from "../daos/UserDAO";
 import { useNavigate } from "react-router-dom";
+import useAuthStore from "../stores/use-auth-store.js";
 
 const Login = () => {
   const { user, loginGoogleWithPopUp, observeAuthState, loading } =
